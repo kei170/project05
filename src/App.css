@@ -1,0 +1,58 @@
+#box{
+    width: 800px;
+    margin: 0 auto 50px;
+    border: 2px solid #666;
+}
+
+#btn{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#btn>Button{
+    padding: 20px 50px;
+    border-radius: 8px;
+    color: #000;
+    background-color: blue;
+    margin: 0 25px;
+    font: bold 20px Arail,sans-serif;
+}
+#btn>Button:hover{
+    background-color: orange;
+    color: blue;
+}
+#btn>Button:last-child{
+    background-color: orange;
+}
+
+#container{
+    display: flex;
+    justify-content: space-between;
+    border: 2px dotted #666;
+    text-align: center;
+    padding: 20px;
+}
+#container>h1{
+    font: bold 18px '나눔고딕',sans-serif;
+    color: violet;
+    margin-bottom: 20px;
+}
+#container>figure{
+    width: 250px;
+    border: 1px solid #666;
+}
+#container>figure dl{
+    width: 80%;
+    margin: 0 auto;
+    background-color: #666;
+}
+#container>figure dt{
+    text-align: left;
+    color: #fff;
+    margin-bottom: 25px;
+}
+#container>figure dd{
+    color: yellow;
+    line-height: 20px;
+}
